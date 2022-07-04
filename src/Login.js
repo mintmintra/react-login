@@ -24,7 +24,7 @@ function Login() {
     var raw = JSON.stringify({
       "username": inputs.username,
       "password": inputs.password,
-      "expiresIn": 60000
+      "expiresIn": 600000
     });
 
     var requestOptions = {
